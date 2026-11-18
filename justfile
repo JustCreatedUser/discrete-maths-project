@@ -1,11 +1,11 @@
 format:
-  uv run ruff format main.py
+  uv run ruff format src/main.py
 
 doctest:
-  python -m doctest main.py
+  python -m doctest src/main.py
 
 type-test:
-  uv run mypy main.py
+  uv run mypy src/main.py
 
 logic-test:
-  uv run ruff check main.py
+  uv run ruff check src/main.py

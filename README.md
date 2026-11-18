@@ -3,8 +3,8 @@
 ## Contributors:
 - Povar Roman
 - Dyryl Daniel
-- Serheeva Marta
-- Vladyslav Yuriyovych
-- Kateryna Bodnaryuk
+- Serheieva Marta
+- Ohlashennyi Vladyslav
+- Kateryna Bondariuk
 
-## Entry point - **main.py**
+## Entry point - **src/main.py**
