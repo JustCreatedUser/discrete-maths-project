@@ -13,8 +13,8 @@ jobs:
       - name: Setup dependencies
         run: uv sync
       - name: check best practices
-        run: uv run just logic-test
+        run: uv run ruff check src/*.py
       - name: verify strict typing
-        run: uv run mypy type-test
+        run: uv run mypy src/*.py
       - name: Run doctests
-        run: uv run just type-test
+        run: python -m doctest src/*.py
